@@ -23,5 +23,6 @@ res.send(`
 <p>Please try again later.</p>
 `);
 });
-app.listen(3000, () =>
-console.log("Honeypot running at http://localhost:3000");
+app.listen(3000, () => {
+    console.log("Honeypot running at http://localhost:3000");
+});
